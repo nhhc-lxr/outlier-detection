@@ -1,0 +1,17 @@
+trace,freq,label,outlier,pred_label
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Cancelled,16365,1,0.6683536721073983,1
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned O_Accepted,16299,1,0.6725853571439496,1
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned O_Refused,3532,1,0.9166112867738833,1
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned O_Cancelled,2393,1,1.0375486398527458,1
+O_Create_Offer O_Created O_Cancelled,1203,1,1.042010952255445,1
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Refused,962,1,0.9549404819750172,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Returned O_Accepted,929,1,0.5115952840367968,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Cancelled,875,1,0.5556301088872642,1
+O_Create_Offer O_Created O_Sent_(mail_and_online),108,1,1.5897557114478258,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Refused,101,1,0.7969683421700272,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Returned O_Cancelled,62,1,1.1053297941483626,1
+O_Create_Offer O_Created O_Refused,59,1,1.50476353206458,1
+O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned,48,1,1.730398870199542,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Returned O_Refused,41,1,1.1065822506041436,1
+O_Create_Offer O_Created O_Sent_(online_only),17,1,1.6169606065596558,1
+O_Create_Offer O_Created O_Sent_(online_only) O_Returned,1,1,5.2081024395351685,0

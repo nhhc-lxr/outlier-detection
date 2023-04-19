@@ -1,0 +1,847 @@
+trace,freq,label,outlier,pred_label
+ER_Registration ER_Triage ER_Sepsis_Triage,35,1,0.9063469913248243,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP,24,1,0.38280573943758267,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes,22,1,0.41683003759978066,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics,13,1,0.507080388741035,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid,11,1,0.6119048548202191,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics,9,1,0.5846263267979916,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics,7,1,0.5523082571231751,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Release_A,5,1,0.5605008197649959,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics,5,1,0.9081042176529133,1
+ER_Registration ER_Triage CRP Leucocytes ER_Sepsis_Triage,5,1,1.1088136116711245,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics,5,1,0.5241547438734141,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics,4,1,0.5739180191822629,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes,4,1,0.9067079616496688,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Release_A,4,1,0.592295170963204,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,4,1,0.5815634942372172,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,4,1,0.6263441223679218,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage,4,1,1.2692400097311332,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Release_A,4,1,0.6855495745695567,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics,3,1,0.8908432864658798,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP,3,1,0.7044606306383048,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,3,1,0.6136711617679971,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Release_A,3,1,0.7294744064663967,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Release_A Return_ER,3,1,0.5968528373985581,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC,3,1,0.6480304532999092,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics,3,1,0.7655615415777098,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Release_A Return_ER,3,1,0.6570915885404827,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics,3,1,0.8537580179406172,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,2,1,0.7280774268030629,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes,2,1,0.7886159184908682,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A,2,1,0.7023616746599464,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid,2,1,0.8321666183219838,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,2,1,0.7015099843155626,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Release_A Return_ER,2,1,0.791708656555957,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics IV_Liquid,2,1,0.7048925581170914,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_A,2,1,0.8241694194013898,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP,2,1,0.8957178590522347,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Release_B,2,1,1.1442108394426642,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics,2,1,0.9603336858204362,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,2,1,0.7449462289381497,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC,2,1,0.9375668229098978,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,2,1,0.9266674538540759,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,2,1,0.8275434128017354,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid,2,1,1.2311695317209455,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,2,1,0.7531759248245837,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes Admission_NC Release_A Return_ER,2,1,0.9322387630548423,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A,2,1,0.7928810349436459,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Release_A,2,1,0.7046607971615757,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A,2,1,0.7675163352690334,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,2,1,0.7082247887768093,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP,2,1,0.9874116692308669,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A,2,1,1.012710659944444,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,2,1,0.8763605443229808,1
+ER_Registration ER_Triage ER_Sepsis_Triage Admission_NC Release_A,2,1,1.509862649184873,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,2,1,0.7036520344858358,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,2,1,0.8195535069339248,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics,2,1,1.0188757729597409,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Release_A,2,1,1.2632087791076128,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Admission_NC Release_A,2,1,1.4100930791914952,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,2,1,0.7507189322273675,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes CRP Release_A Return_ER,2,1,0.7408185137295368,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A,2,1,0.7255404099177549,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics,2,1,0.9263807166241226,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9972077087786506,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP CRP Release_A,1,1,1.0863217077329377,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.5876452920315927,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Release_A,1,1,0.9717954190140276,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,1.003831799956684,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_IC Admission_NC CRP Leucocytes CRP Admission_NC Release_B,1,1,1.2305985875085426,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A,1,1,1.2005347003145126,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Release_A,1,1,1.0204426079160471,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC IV_Liquid CRP Leucocytes Release_A Return_ER,1,1,1.0401041484439062,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.1444721697609646,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC IV_Liquid IV_Antibiotics CRP Leucocytes Release_A,1,1,1.5227698015591247,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Release_A Return_ER,1,1,0.9365606729276289,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_IC LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.2801293555866597,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Release_B,1,1,1.1457873294746315,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Admission_NC Leucocytes Leucocytes Leucocytes Leucocytes CRP Release_B,1,1,1.2083713400606098,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0091515263693174,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Release_A,1,1,0.9982703493729301,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC CRP Release_A Return_ER,1,1,1.2860955181482403,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP LacticAcid Leucocytes IV_Liquid,1,1,2.1389677733079466,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP Admission_IC Admission_NC Admission_NC Release_A,1,1,1.583447770396023,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid CRP Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.0627312216577092,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC IV_Liquid Leucocytes CRP Release_C,1,1,1.1605143681325056,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Release_A Return_ER,1,1,1.267256357752849,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Release_A,1,1,1.1301164040665455,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,1.756917129450391,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics,1,1,1.2449419293786201,1
+ER_Registration ER_Sepsis_Triage IV_Antibiotics ER_Triage Leucocytes LacticAcid CRP Admission_NC Admission_NC CRP LacticAcid Leucocytes Release_A Return_ER,1,1,1.4406400097968117,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,1.1363218490914546,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Leucocytes CRP LacticAcid Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP Leucocytes Release_C,1,1,1.2992061931127115,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid,1,1,1.2348432920019785,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_D,1,1,1.2695117843930521,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.115222588210108,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0347116575516622,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC LacticAcid Release_A,1,1,1.606744282309321,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Release_A,1,1,1.3299648983096772,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Admission_NC Admission_NC Release_A Return_ER,1,1,1.3237275874061472,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Release_A,1,1,0.9543901817999902,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.1249118069732815,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.3320346459388013,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,1.101179058378891,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.151891475148791,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics IV_Liquid Admission_NC Release_A Return_ER,1,1,1.0109233243715132,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_B,1,1,1.0709633913199808,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_A,1,1,1.1982140360721552,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0197913570466743,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1753794822871375,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Admission_NC CRP Release_A Return_ER,1,1,1.306390206428955,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP Admission_NC Release_A Return_ER,1,1,1.235498274457824,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC,1,1,1.1217318569829935,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.259713802516651,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC LacticAcid Release_B,1,1,1.408723114864476,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics IV_Liquid Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Release_A,1,1,1.2175297188718652,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC IV_Liquid Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.160665907124864,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.1353243393014611,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Admission_NC CRP Leucocytes Release_D Return_ER,1,1,1.3316631345666663,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0452392314639931,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Release_A,1,1,1.0645992550420917,1
+ER_Triage ER_Registration ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Leucocytes Release_A Return_ER,1,1,2.239717440420362,0
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1959564878707931,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Release_A,1,1,1.1988401805308946,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Admission_NC CRP CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0516990810599978,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1907822103649968,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP CRP Leucocytes LacticAcid Admission_IC CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.3018886542525945,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP CRP Release_A Return_ER,1,1,1.6942257061245534,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics IV_Liquid LacticAcid,1,1,1.7478946983463746,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP LacticAcid Leucocytes Admission_IC CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Admission_NC Release_A Return_ER,1,1,1.2074893274077736,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP IV_Antibiotics Admission_NC Admission_IC LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0311457301654963,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0842966490399006,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Admission_NC Release_A Return_ER,1,1,1.3265970609290676,1
+CRP Leucocytes ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics,1,1,1.5848555246404272,1
+ER_Registration LacticAcid CRP Leucocytes ER_Triage ER_Sepsis_Triage LacticAcid LacticAcid IV_Liquid IV_Antibiotics,1,1,2.4462999044907585,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_IC Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.2418172981572813,1
+ER_Registration ER_Triage IV_Liquid ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.4666871887267248,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC Leucocytes Leucocytes CRP CRP CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Admission_NC Admission_NC Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.2302876907766889,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid,1,1,1.4521779036120614,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_C,1,1,1.1135912339612313,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC Admission_IC Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP Admission_NC Release_A,1,1,1.0855283565684453,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,1,1,2.0880238417401356,0
+ER_Sepsis_Triage ER_Registration ER_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid CRP CRP LacticAcid Leucocytes Admission_NC Release_A Return_ER,1,1,1.3638541026137803,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1110282165252532,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0479161831331427,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Admission_NC IV_Liquid CRP Leucocytes Leucocytes CRP Leucocytes Release_A,1,1,1.129986179601371,1
+ER_Registration CRP Leucocytes ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid LacticAcid LacticAcid CRP Leucocytes Leucocytes Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Release_B,1,1,1.113360026342212,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes,1,1,1.362402214371767,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_B,1,1,1.2775492110618025,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics,1,1,2.336971721922546,0
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.3616584600511705,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics Admission_NC LacticAcid Admission_NC Admission_NC IV_Liquid Leucocytes CRP CRP Leucocytes Release_B,1,1,1.4933920661755837,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP CRP CRP Leucocytes CRP Leucocytes CRP CRP Release_D Return_ER,1,1,1.2907869877129552,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC IV_Liquid Release_A,1,1,1.247680128176755,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Release_A,1,1,1.2976569580699666,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_IC Leucocytes LacticAcid CRP Admission_NC Release_A Return_ER,1,1,1.1053550850229161,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.9274441172458522,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Release_A,1,1,1.1814488576782858,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1474041656549434,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9483760037132025,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP CRP CRP Release_A,1,1,0.9112670116987813,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.005971277574537,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0274396415192577,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Release_B,1,1,1.1856433260308583,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,0.990474183671103,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_IC CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,0.9564912078450822,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Release_A,1,1,1.021416142824049,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1428591800604908,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes CRP LacticAcid Leucocytes Release_A,1,1,1.1476099600259433,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage Admission_IC LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Release_A Return_ER,1,1,1.6631294807805606,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,0.9903136172661726,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_B,1,1,1.195162399471304,1
+ER_Registration CRP Leucocytes ER_Triage ER_Sepsis_Triage LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.444000432314409,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP CRP Leucocytes Release_A Return_ER,1,1,1.1013977945968398,1
+ER_Registration LacticAcid CRP Leucocytes ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1670266589764102,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.002943162182798,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,1.1772734676288372,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP CRP Leucocytes CRP Leucocytes Release_A,1,1,0.9668090857649245,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,0.9482213621813234,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,1.2777705897213192,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.1670758631659521,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Admission_NC Release_A Return_ER,1,1,1.5770127242183871,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A CRP Leucocytes,1,1,1.0072302124099635,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes LacticAcid CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes CRP CRP Release_A,1,1,0.9848745375985372,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes CRP Admission_NC Leucocytes Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.9967454496198599,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Release_A,1,1,0.9782673289536395,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Admission_IC CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP Release_A,1,1,1.164231435655848,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid LacticAcid Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,0.9398380096401321,1
+ER_Sepsis_Triage ER_Registration ER_Triage Leucocytes CRP,1,1,3.346508987660096,0
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes Leucocytes Admission_NC Release_A,1,1,1.184114034426864,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,1.1178911720678173,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC CRP Release_A,1,1,0.9485632053351599,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes LacticAcid CRP Leucocytes Release_A Return_ER,1,1,1.092209042887465,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0382215878117051,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Admission_NC Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Release_A,1,1,1.0416064949174013,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes Leucocytes CRP Release_A,1,1,1.204254190022543,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.151571226646464,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Admission_IC CRP Leucocytes LacticAcid LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Release_E Return_ER,1,1,1.2635079384152454,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Leucocytes,1,1,1.6588088446750593,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC Admission_NC Release_A,1,1,1.5052051510207873,1
+ER_Registration IV_Liquid ER_Sepsis_Triage IV_Antibiotics ER_Triage LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.2614382245526103,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.233029029548443,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP LacticAcid CRP Leucocytes CRP CRP CRP CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0224816468312001,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.2653158938611544,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0746200137945223,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.1247597942613234,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Release_D,1,1,1.2111636088871298,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC IV_Liquid Release_B,1,1,1.1638022928753373,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.2460375470171055,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,0.990391343788166,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Release_A,1,1,1.030384756013627,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.1988705642820545,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP CRP Leucocytes Release_A Return_ER,1,1,1.0341652725838384,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC IV_Liquid CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0213258476706994,1
+ER_Registration ER_Sepsis_Triage ER_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Admission_NC Release_A Return_ER,1,1,1.4096080314456283,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0463114959738782,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.072447655192699,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9730187566067772,1
+ER_Registration CRP LacticAcid Leucocytes IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics,1,1,2.4975341215438163,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_IC CRP Leucocytes LacticAcid Leucocytes Leucocytes Leucocytes Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Release_B,1,1,1.3191875693105213,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Leucocytes,1,1,2.0587994535900953,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.0899861468657048,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes IV_Liquid ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP LacticAcid CRP Release_A,1,1,2.107131570163765,0
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes Release_A,1,1,0.9668586977335181,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Admission_NC CRP Release_A,1,1,1.1276499530615,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0812850158181206,1
+ER_Registration ER_Triage CRP Leucocytes ER_Sepsis_Triage IV_Antibiotics Admission_NC LacticAcid Admission_NC Release_B,1,1,1.3904202454524408,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Admission_NC Release_A,1,1,0.9296496251778972,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Release_D Return_ER,1,1,1.5539101738067103,1
+Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes Release_A,1,1,1.3914997976349002,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.220541295113781,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.989509636747369,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.14323140630174,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics,1,1,1.4305184663779051,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,0.9679174937450233,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes,1,1,1.9047100003315913,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid Admission_NC IV_Liquid IV_Antibiotics CRP Release_A,1,1,1.6903382054086487,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC Admission_NC Release_A,1,1,1.0107782165417307,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.0656879385977498,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP CRP Release_A,1,1,1.0727117253153624,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_C,1,1,1.2888736549507807,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC IV_Liquid CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0385453090759038,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid CRP Leucocytes Admission_NC Admission_NC Leucocytes CRP CRP CRP Leucocytes CRP Release_A Return_ER,1,1,1.1100018954978932,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Release_A Return_ER,1,1,1.0485700265246354,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_IC CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP LacticAcid Admission_IC LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.1772202839253785,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Leucocytes Leucocytes Leucocytes CRP Admission_NC Leucocytes CRP CRP Release_A,1,1,1.0503405998880209,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.2196118201429025,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0254020979151894,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid Leucocytes CRP Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Admission_NC Release_B,1,1,1.686947294265055,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0009162976648174,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.1974691794394534,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.1150722453064013,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_IC Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Admission_NC Release_A Return_ER,1,1,1.0963691014130805,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.15649537425654,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC LacticAcid Release_A,1,1,1.3414008555209052,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Admission_NC CRP Leucocytes CRP Admission_NC Admission_NC CRP CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP Admission_NC Release_D,1,1,1.505757672812793,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Release_A,1,1,1.1722531258484885,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9667247790205706,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1873229102123362,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC LacticAcid CRP CRP LacticAcid Leucocytes Leucocytes CRP Leucocytes CRP Release_B,1,1,1.4001314953030917,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9960443361831484,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics,1,1,1.1024928938905167,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes IV_Liquid ER_Sepsis_Triage Admission_NC IV_Antibiotics CRP CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,2.1802200154929423,0
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.394604313696056,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP CRP CRP Release_A Return_ER,1,1,0.9740399779363464,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,0.9828713391369209,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes Release_A Return_ER,1,1,1.3622303840646488,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,0.9945287932424579,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0203008771236715,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes,1,1,1.0471651546053875,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.9949642537669148,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.2772137560521766,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Leucocytes LacticAcid CRP Admission_NC Release_B,1,1,1.0609879683713728,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9682334209272849,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Admission_NC Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_D,1,1,1.1121771448258126,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Release_C,1,1,2.2854797865569325,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_IC CRP LacticAcid Leucocytes LacticAcid LacticAcid LacticAcid CRP LacticAcid Leucocytes LacticAcid LacticAcid LacticAcid LacticAcid LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0196171475087759,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,0.96294055879412,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,0.9748057128780033,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP CRP Release_A,1,1,1.0153101624416694,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes Release_A Return_ER,1,1,0.979338687907762,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.03700554364105,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP CRP Leucocytes CRP Release_A,1,1,1.4191423438148134,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes Release_A,1,1,1.0080206821679727,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Release_C Return_ER,1,1,1.3190571482396747,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0573685554204988,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,1.0650050580812107,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Release_A,1,1,2.0130568238181814,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP,1,1,2.599606951508437,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0336585034841086,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0773938534994558,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0260432877015477,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC Admission_NC CRP Release_A,1,1,1.1983787986454624,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes,1,1,3.0035425749185136,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes Release_A,1,1,1.0302280929201766,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Admission_NC Leucocytes Leucocytes CRP Release_A,1,1,1.134447606306966,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP Admission_NC IV_Liquid IV_Antibiotics,1,1,1.834317134971024,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.2463585650560498,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.11706882592425,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes CRP LacticAcid IV_Liquid Admission_NC CRP Leucocytes CRP Release_A,1,1,2.0642852869552923,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0475728664106314,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Admission_IC Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Admission_NC Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.1226384797468998,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,0.9756304853701039,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage,1,1,1.25672797630877,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.2621395476987565,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9597068830765463,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Antibiotics,1,1,0.9953336469043318,1
+CRP Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage Admission_NC CRP CRP Release_A,1,1,1.7372482108271434,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0643397814981457,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0758246986761681,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Release_B Admission_NC,1,1,1.3499572138049982,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP CRP Release_A,1,1,1.037308098306551,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_IC Leucocytes LacticAcid CRP Leucocytes CRP LacticAcid LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Release_A Return_ER,1,1,0.9657489845710554,1
+ER_Registration ER_Sepsis_Triage ER_Triage IV_Antibiotics Leucocytes CRP IV_Liquid Admission_NC CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,2.4750141220385027,0
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes LacticAcid CRP IV_Liquid Admission_NC Leucocytes CRP Admission_NC Release_C,1,1,1.6799357588801294,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_C,1,1,1.4941887411038985,1
+ER_Registration ER_Sepsis_Triage ER_Triage CRP Leucocytes LacticAcid LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.2242939798480386,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_E,1,1,1.4124799926174934,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_IC CRP Leucocytes LacticAcid Leucocytes Leucocytes LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Admission_IC CRP LacticAcid Leucocytes Leucocytes Leucocytes CRP LacticAcid LacticAcid CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes Leucocytes LacticAcid CRP Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes Leucocytes Admission_NC Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1385261308012387,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0855900630162572,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Release_A,1,1,0.9356366797726278,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP CRP CRP Release_A Return_ER,1,1,1.0634452214975518,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes LacticAcid CRP Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0945334651196124,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics,1,1,1.4031900631304939,1
+ER_Registration ER_Triage CRP Leucocytes ER_Sepsis_Triage Admission_NC Release_A,1,1,2.3343869378846858,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_IC CRP LacticAcid Leucocytes LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP CRP CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Admission_NC Release_A Return_ER,1,1,1.1587724742018684,1
+ER_Registration ER_Triage IV_Liquid Leucocytes CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Antibiotics,1,1,1.1515906895799417,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,2.0355032479968775,0
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0696958461320536,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.9305276852011106,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Admission_NC CRP Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes Leucocytes Release_A,1,1,0.985386272786204,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid,1,1,1.0124309137161598,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP CRP Release_A,1,1,1.0153101624416694,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Admission_NC Release_B,1,1,1.3297206415552691,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes Admission_NC LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid CRP Leucocytes Release_B,1,1,1.0597243768934985,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP LacticAcid CRP Leucocytes Admission_NC Leucocytes Admission_IC CRP LacticAcid Leucocytes Leucocytes Leucocytes CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Release_D Return_ER,1,1,1.0867765804764415,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0099041653825815,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP,1,1,1.0933105267773118,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0134893107725844,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Admission_NC Release_A,1,1,1.162227585977223,1
+CRP Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage Admission_NC CRP Leucocytes Admission_IC Leucocytes CRP LacticAcid Leucocytes Leucocytes Admission_IC Leucocytes CRP LacticAcid Leucocytes Leucocytes Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Admission_NC Release_A Return_ER,1,1,1.0425854827968037,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP Leucocytes Admission_NC Leucocytes CRP IV_Liquid CRP Leucocytes Release_A,1,1,1.9274861879509855,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,1.0389441661347443,1
+Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP,1,1,1.654612869693968,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes Release_A,1,1,1.0011124823961388,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_B,1,1,0.9976574512895254,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC Admission_NC IV_Antibiotics IV_Liquid CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Admission_NC Admission_IC LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Admission_NC Release_A,1,1,1.3228679592936163,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC Admission_IC LacticAcid CRP Leucocytes CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.073661414496661,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_D Return_ER,1,1,1.3560514923046019,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0042873052614703,1
+CRP Leucocytes ER_Registration Leucocytes CRP ER_Triage ER_Sepsis_Triage,1,1,1.4095324547418608,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Admission_NC Release_A Return_ER,1,1,1.3330786553716727,1
+ER_Registration CRP Leucocytes ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Release_A,1,1,1.093529155468322,1
+ER_Registration ER_Triage IV_Liquid Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.4916725956616148,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.052178395940281,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Admission_IC LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Admission_NC CRP Release_A,1,1,1.1418754544442307,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_IC CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.8720748722820673,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1776641051283738,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,0.9971305526333843,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC Release_A Return_ER,1,1,1.1674009551951248,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.0632638736769922,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid IV_Liquid Admission_NC ER_Sepsis_Triage IV_Antibiotics Release_A,1,1,1.3459872641600974,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,0.9782691561255312,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,2.0991039717114783,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.1230856255002293,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9997309860409432,1
+ER_Registration ER_Sepsis_Triage ER_Triage CRP Leucocytes IV_Liquid IV_Antibiotics LacticAcid Admission_IC Leucocytes CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Leucocytes,1,1,1.2273131124823884,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP CRP Leucocytes Release_A Return_ER,1,1,0.9899635127435903,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_IC LacticAcid LacticAcid Leucocytes LacticAcid CRP LacticAcid Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Release_A Return_ER,1,1,1.102645368057646,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC,1,1,1.210381353571918,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.182787442206039,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0935668814521642,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Release_B,1,1,1.2560288923198626,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes LacticAcid Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,1.133202211100185,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.150157644802711,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes,1,1,1.1795941514086767,1
+ER_Registration ER_Triage ER_Sepsis_Triage Admission_NC Admission_IC Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0469767621606423,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_C,1,1,1.1347050283667046,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage IV_Liquid LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.1942350626952545,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics,1,1,1.0556653041661743,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Antibiotics,1,1,1.7601012503928974,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid Admission_NC ER_Sepsis_Triage IV_Liquid IV_Antibiotics Release_A,1,1,1.3145847343200163,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.0808523887513062,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.5806450368151892,1
+ER_Registration IV_Liquid ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Antibiotics Admission_NC Release_A,1,1,1.7127082654973944,1
+ER_Registration ER_Sepsis_Triage ER_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP LacticAcid Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_B,1,1,1.4859982023491447,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC LacticAcid CRP Leucocytes CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Release_A Return_ER,1,1,1.0856061457235309,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes CRP Release_A Return_ER,1,1,0.9740399779363464,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.132107095519521,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.1355461856154263,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC Release_A,1,1,1.066522866271153,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Release_B,1,1,1.0898464063515614,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A,1,1,3.1476680782992026,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC Leucocytes Release_A,1,1,1.1561702634408497,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_B,1,1,1.5190651061003382,1
+ER_Registration IV_Liquid ER_Sepsis_Triage IV_Antibiotics ER_Triage LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,1.4205989008720306,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.1898613561618046,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0129557608405524,1
+ER_Registration ER_Sepsis_Triage IV_Antibiotics ER_Triage CRP Leucocytes LacticAcid IV_Liquid Admission_NC CRP Leucocytes Admission_NC Release_A,1,1,2.279643009236268,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0218257564228512,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage Admission_NC Release_B,1,1,1.1674012961378173,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC CRP Release_A,1,1,1.269033925053652,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_B,1,1,1.1175550403857795,1
+ER_Registration ER_Triage CRP Leucocytes ER_Sepsis_Triage Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.3813291361562965,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC LacticAcid CRP Leucocytes Admission_NC CRP LacticAcid Leucocytes Leucocytes CRP CRP Release_A Return_ER,1,1,1.4256154401167969,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP CRP Leucocytes Release_A Return_ER,1,1,0.9786783860714416,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC CRP CRP Leucocytes Release_A,1,1,1.287219907008567,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Release_A,1,1,0.9917384580052998,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_IC Leucocytes Leucocytes Leucocytes CRP CRP Release_B,1,1,1.2701256861448076,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0095410170308812,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.9115849671293562,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_D,1,1,1.1115742756416724,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER CRP LacticAcid Leucocytes,1,1,1.059267110558553,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0099746950494664,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Release_A Return_ER,1,1,1.074944644904764,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,0.9396661782478026,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC,1,1,2.145130779304698,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics IV_Liquid Admission_NC Release_A,1,1,1.1812065548136619,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics ER_Triage,1,1,1.314414122388021,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1704619224035766,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes Release_A,1,1,1.0059712775745369,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC Admission_NC Admission_NC Release_A,1,1,1.0127864333362195,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Admission_NC CRP Leucocytes CRP Leucocytes Release_B,1,1,1.5187405799016174,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_IC CRP LacticAcid Leucocytes LacticAcid LacticAcid CRP Leucocytes Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.026394596305577,1
+ER_Registration ER_Triage Leucocytes CRP Admission_NC ER_Sepsis_Triage Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_C,1,1,1.6300563440190645,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Release_A Return_ER,1,1,1.20521434969642,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes CRP Release_A,1,1,0.9904741931272467,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Release_C,1,1,1.349323626392919,1
+ER_Triage ER_Registration ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_C Return_ER,1,1,2.5786831119327434,0
+CRP LacticAcid Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_C,1,1,1.5448777136350897,1
+ER_Registration CRP Leucocytes ER_Triage ER_Sepsis_Triage IV_Antibiotics,1,1,1.146048984119081,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC LacticAcid Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,0.9285850514511609,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_A,1,1,1.451384654497182,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_IC Leucocytes LacticAcid Leucocytes LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Release_B,1,1,1.1107944174351698,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP CRP CRP Release_C,1,1,1.1904665463212556,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.1187940329119723,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC Admission_NC Leucocytes Leucocytes CRP Leucocytes CRP Admission_IC Leucocytes CRP LacticAcid Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP LacticAcid Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP Admission_NC Leucocytes Leucocytes Leucocytes Release_A Return_ER,1,1,1.26739413323041,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_B,1,1,1.2436514790883113,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_IC LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_D Return_ER,1,1,1.2437081998748032,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_A,1,1,0.9593886694507375,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP CRP CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,1.2523492447941889,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC LacticAcid Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Release_A Return_ER,1,1,1.0639207497616134,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes Leucocytes Release_A Return_ER,1,1,1.1174951252034464,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Admission_NC CRP Leucocytes Leucocytes Release_A Return_ER,1,1,1.230685033744371,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.2652176452912498,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_C,1,1,1.3012954227927478,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,1.2403144315828907,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes Release_A,1,1,0.9682334209272849,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_C Return_ER,1,1,1.266471453731397,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_IC LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.152477222742933,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Release_A Return_ER,1,1,2.5948690644614705,0
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC IV_Liquid CRP Leucocytes Release_A,1,1,0.9945562792281489,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Admission_NC Release_A,1,1,0.960573739781407,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes Admission_NC Release_A,1,1,0.973698905625396,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.1701912408465887,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,0.9788916238964441,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.2963245076804855,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,0.9718574936420042,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Admission_NC Admission_IC LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP CRP Leucocytes CRP Release_A,1,1,1.0955675900897053,1
+ER_Registration ER_Triage IV_Liquid Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP Release_A Return_ER,1,1,1.5041876499398124,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0247973410052234,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.062156339383924,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Release_A,1,1,1.0699520348784033,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP,1,1,1.912018365184404,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Release_A Return_ER,1,1,1.1365482656061268,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9955083191421531,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Release_A,1,1,1.025387533995824,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Admission_NC Release_A,1,1,1.7059173407397341,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes Admission_NC Release_A Return_ER,1,1,0.9866699400814899,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0462309058567687,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes IV_Liquid ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.659488523598463,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes Release_D,1,1,1.2995270921481819,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,1.0178545890349748,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0375589270858134,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.250046199271535,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes Leucocytes Release_A Return_ER,1,1,0.9872490722821823,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9796108074809277,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Release_A Return_ER,1,1,1.7098780628177794,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid LacticAcid CRP Leucocytes Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.3080542078461816,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0090751758709327,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP IV_Liquid Release_A Return_ER,1,1,1.6071688426136705,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.1363218490914546,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0667365881772537,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.02434487821074,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP CRP Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes Leucocytes CRP Release_B,1,1,1.047844356930664,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP LacticAcid Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.2333315929776552,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Admission_NC Admission_IC Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes Leucocytes Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0404514622901393,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes CRP CRP Release_D,1,1,1.3428605746446007,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC LacticAcid Admission_NC LacticAcid Leucocytes CRP LacticAcid CRP Release_A,1,1,1.4021941175691688,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid,1,1,1.5702352221092726,1
+ER_Registration LacticAcid CRP Leucocytes ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Release_A,1,1,2.024436958958458,0
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Release_A,1,1,1.2230527171634837,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.002664290049988,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Leucocytes CRP IV_Liquid,1,1,1.269433824741106,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Release_B,1,1,1.0905068251113688,1
+ER_Registration CRP Leucocytes LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,0.9924641397419947,1
+ER_Registration ER_Triage CRP Leucocytes ER_Sepsis_Triage IV_Liquid LacticAcid IV_Antibiotics,1,1,1.854488894401208,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC CRP LacticAcid Leucocytes Leucocytes CRP Release_A,1,1,0.9580363864887387,1
+ER_Registration ER_Triage Leucocytes CRP ER_Sepsis_Triage Admission_NC Release_A Return_ER,1,1,1.469794006486692,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_D,1,1,1.475769164718592,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes CRP Release_A,1,1,0.9925185092346843,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics LacticAcid CRP Leucocytes Admission_NC CRP Release_A,1,1,1.371752859317669,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC IV_Liquid,1,1,1.4379744583964666,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC,1,1,1.38240081077343,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Release_B,1,1,1.4520512824604366,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.1721520302893758,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.03700554364105,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.104932193413452,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics,1,1,1.3661475196001345,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1983410923734379,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.0232209787405604,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics,1,1,1.3991508270797275,1
+ER_Registration IV_Liquid ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC LacticAcid Leucocytes Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes Release_A,1,1,1.3193330141911752,1
+ER_Registration CRP LacticAcid Leucocytes ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0487849078344946,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Release_A,1,1,0.9421026087459999,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9531730752847883,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.9773471492843027,1
+ER_Sepsis_Triage IV_Liquid IV_Antibiotics ER_Registration ER_Triage LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes,1,1,1.5147810335952088,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP ER_Triage,1,1,1.654612869693968,1
+Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,0.9368203207469112,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.1582178585349252,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Release_A Return_ER,1,1,1.1544332167464233,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP CRP Release_A,1,1,1.1484531235138637,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC LacticAcid Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Admission_NC Admission_NC Release_B,1,1,1.191307043750619,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC LacticAcid CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.285469917861817,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0405242739949037,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP CRP Release_A,1,1,1.0536285790261248,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics IV_Liquid Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.018518932086727,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC LacticAcid Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0721812605799512,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC LacticAcid CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Admission_NC Release_A Return_ER,1,1,1.159836709791587,1
+Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.1670758631659521,1
+ER_Triage ER_Registration ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Release_A Return_ER,1,1,1.391882884220725,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_IC CRP LacticAcid Leucocytes Admission_IC Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.4710859533841765,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0120152911843923,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0581103792076305,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.142114437046467,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0621437619043792,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,0.9745213811270723,1
+Leucocytes CRP ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Release_A,1,1,1.0064319780837772,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes CRP Admission_NC Admission_NC CRP Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9976165143374596,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,0.9851941404241966,1
+ER_Sepsis_Triage ER_Registration ER_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Release_B,1,1,1.3347240214154183,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Release_A,1,1,0.9718163267123575,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC LacticAcid Leucocytes LacticAcid CRP Admission_NC CRP Leucocytes Release_A,1,1,1.0888210470926964,1
+ER_Triage Leucocytes CRP LacticAcid Leucocytes ER_Registration Admission_IC LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.5607238959095289,1
+Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.241357578464456,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP CRP Leucocytes Release_A,1,1,1.0247871457812638,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.1023138199536708,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Admission_NC Admission_NC Admission_NC CRP Leucocytes Admission_NC Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_B,1,1,1.124095660442566,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Release_A,1,1,0.997206506280071,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid,1,1,1.323832148564776,1
+CRP Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Release_B,1,1,1.3364067561310071,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Admission_IC LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Leucocytes LacticAcid CRP LacticAcid Admission_NC Admission_NC Release_A,1,1,1.1205631289552225,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_B,1,1,1.1354378104104028,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Admission_IC CRP LacticAcid Leucocytes Leucocytes LacticAcid CRP Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Release_E,1,1,1.5114194229963591,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.1928958169534671,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC Leucocytes Leucocytes Leucocytes Release_B,1,1,1.367305956152744,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Release_A Return_ER,1,1,1.1335895842093295,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,1.0044832730085718,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC IV_Liquid CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.066313730177126,1
+ER_Registration ER_Triage IV_Liquid ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.8628354744264808,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes CRP Release_A Return_ER,1,1,0.9679174937450233,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9411177272936241,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.5452637589789395,1
+CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_IC Leucocytes LacticAcid CRP LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0164522467287378,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes Admission_NC Release_A Return_ER,1,1,1.1034563237304569,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC,1,1,1.0987215420208205,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Antibiotics IV_Liquid Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.462657625799099,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC IV_Liquid Leucocytes CRP Release_A Return_ER,1,1,1.4241789968310798,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC LacticAcid Admission_NC Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Admission_NC Release_A,1,1,2.0215863507068863,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,1.1988088994870796,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,0.9612212355889734,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid LacticAcid IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_IC LacticAcid Leucocytes CRP LacticAcid LacticAcid LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_B,1,1,1.1525734884215897,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics Admission_IC LacticAcid LacticAcid Leucocytes LacticAcid CRP LacticAcid LacticAcid LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0391529914698097,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes Release_A Return_ER,1,1,0.9750307550791555,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes IV_Liquid Admission_NC ER_Sepsis_Triage IV_Antibiotics Admission_IC CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.3424719223889046,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics CRP Leucocytes,1,1,1.6770265428407487,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP CRP Leucocytes Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,1.2522280382622026,1
+ER_Sepsis_Triage IV_Antibiotics IV_Liquid ER_Registration ER_Triage CRP Leucocytes LacticAcid Admission_NC Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes Admission_NC Leucocytes Leucocytes Release_A Return_ER,1,1,1.3054830290554544,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.2780541327271813,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_IC Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Admission_NC Admission_NC Leucocytes Admission_NC Release_A Return_ER,1,1,1.0008125778217039,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Leucocytes CRP,1,1,1.7023433261696874,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_D Return_ER,1,1,1.2860809993738205,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes Release_A,1,1,1.0588624576648171,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP CRP Release_A,1,1,1.099192076702533,1
+ER_Registration Leucocytes LacticAcid CRP ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid,1,1,1.0409780911245894,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics LacticAcid,1,1,1.920343838033203,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_B,1,1,1.7492489541105036,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Leucocytes CRP,1,1,1.735735052796438,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_C Return_ER,1,1,1.1710085572035316,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Release_B,1,1,1.4224705165536644,1
+ER_Registration IV_Liquid ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Release_A Return_ER,1,1,1.3686718044981951,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Release_A Return_ER,1,1,1.2237229043389013,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics,1,1,1.2271296416834214,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0471214620443832,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes Admission_NC LacticAcid CRP Leucocytes Release_B,1,1,1.237573711432812,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid Admission_NC IV_Liquid CRP Leucocytes Release_A Return_ER,1,1,1.124155501711234,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0150470174277149,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.073694894386361,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes Admission_NC Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Release_E,1,1,1.1866948476170802,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0163086791217326,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Admission_IC Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP Admission_NC Release_A,1,1,1.1722741194756503,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_C,1,1,1.2708419111065468,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid Admission_NC Admission_NC Leucocytes CRP Release_D,1,1,1.4176921627274501,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Release_E,1,1,1.1937268217225505,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0315908836675025,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_IC CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.121730554240019,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0532975122070771,1
+ER_Registration ER_Sepsis_Triage IV_Liquid IV_Antibiotics ER_Triage Leucocytes LacticAcid CRP Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,1.5673841214826678,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP CRP Release_A,1,1,1.027914051778354,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Release_A,1,1,1.002795933833208,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Release_A,1,1,0.9957855823046494,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid LacticAcid CRP Admission_NC CRP LacticAcid Leucocytes CRP Admission_NC Release_A,1,1,1.24515913786771,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Release_A,1,1,0.9989707313167402,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP CRP Release_A,1,1,1.1587086489010794,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Release_A Return_ER,1,1,1.0682574767640007,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_C Return_ER,1,1,1.839880849699943,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC CRP CRP Release_A,1,1,1.0477244215930877,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9866333583650393,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Release_C,1,1,1.2024320471601462,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC CRP Release_A,1,1,1.03057450553687,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC CRP Leucocytes LacticAcid Leucocytes CRP Release_A,1,1,1.1042270372156933,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_IC LacticAcid Release_B,1,1,1.3552535667920949,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,1.1027276436250022,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.244257834109534,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC LacticAcid Admission_NC Leucocytes CRP Release_A,1,1,1.026634276707739,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.0501628338780769,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes Admission_NC Admission_NC CRP CRP CRP Release_A,1,1,1.412493750437348,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP Admission_NC Admission_NC Admission_IC LacticAcid Leucocytes CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP Admission_NC Leucocytes Leucocytes Release_A Return_ER,1,1,1.1241046365516445,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Release_A,1,1,0.9831488338026605,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes LacticAcid CRP IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Release_E,1,1,1.508936555072054,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP Admission_IC ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,1.3089756525693443,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.0764461473747526,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes Release_A Return_ER,1,1,1.0105835919698691,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_D Return_ER,1,1,1.0272541138954616,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.8813620237746078,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.5032651722912356,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP LacticAcid,1,1,1.6942276000872252,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,0.9805448894348978,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC LacticAcid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.2509766956945347,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid Admission_NC Leucocytes Admission_NC Release_A Return_ER,1,1,1.5738412576527765,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,0.92783281218924,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,0.8513891872978361,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_IC Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes Admission_NC CRP CRP Leucocytes Release_A,1,1,1.0509678534230158,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Admission_IC LacticAcid CRP Leucocytes LacticAcid Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,2.2775251473919664,0
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP,1,1,1.0685305240893457,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics LacticAcid,1,1,1.3953506005277572,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A Return_ER CRP Leucocytes LacticAcid,1,1,1.1619711992043809,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes Release_A,1,1,1.3101308715583626,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Release_A,1,1,1.062222417374502,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC IV_Liquid CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.1120983154735853,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Admission_NC Release_A Return_ER,1,1,1.4294095061753478,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC CRP Release_A Return_ER,1,1,0.9890708468326417,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes Release_A Return_ER,1,1,1.2041682179235813,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP LacticAcid Leucocytes IV_Liquid Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.9455109928265293,1
+IV_Liquid ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes,1,1,1.4767864829355422,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes Admission_NC Admission_NC Release_A,1,1,1.2112360513679257,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_D,1,1,1.1229888182858845,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes LacticAcid Leucocytes CRP Release_A,1,1,1.1618497152773337,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes Release_A Return_ER,1,1,1.138302794663086,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid Admission_NC Release_A,1,1,1.2873770660278372,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,0.978904622181766,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0891884149518767,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid LacticAcid Leucocytes Admission_NC CRP Release_A Return_ER,1,1,1.025501691837578,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC,1,1,1.3918710598715778,1
+CRP Leucocytes LacticAcid ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid,1,1,1.2459118305038894,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP CRP Release_A,1,1,0.9720654348591783,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Release_A,1,1,1.0053127881688357,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9295495294773362,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Release_A,1,1,1.0029607251625359,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC IV_Liquid Leucocytes CRP CRP Leucocytes Release_A,1,1,1.598788759314353,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER CRP Leucocytes,1,1,1.0191812942674674,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.1446271650417885,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes CRP CRP Admission_IC Leucocytes CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Leucocytes LacticAcid Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Release_B,1,1,1.373296608184958,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,0.9701391347586036,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics Admission_IC CRP LacticAcid Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.049344084504394,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Release_D Return_ER,1,1,1.435787772304149,1
+ER_Registration Leucocytes CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics,1,1,1.0306789886674546,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Release_A Return_ER,1,1,1.0984747118762792,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid Admission_NC ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.1392163274477833,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics,1,1,2.1608168679944333,0
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_IC LacticAcid CRP Leucocytes CRP Leucocytes LacticAcid Admission_NC Release_A Return_ER,1,1,0.9674821588627465,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics Admission_NC CRP CRP CRP CRP Release_A Return_ER,1,1,1.501070538355437,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Leucocytes LacticAcid Admission_NC Leucocytes CRP Admission_IC LacticAcid Leucocytes CRP Release_B,1,1,1.1473393318568732,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0007945231082325,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP Release_A,1,1,0.9672918120210113,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics,1,1,1.445965851114161,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Release_A Return_ER,1,1,1.4117174049985624,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes CRP Release_A Return_ER,1,1,1.150372337768573,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9741877051692888,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage IV_Antibiotics,1,1,1.1114346162588173,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_IC LacticAcid CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,1.0962301510612915,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid Admission_NC Release_B,1,1,1.4728398190807146,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Release_B,1,1,1.274367826654962,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC ER_Triage Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.0961483332098059,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage,1,1,1.5604040948844364,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0006006266166318,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Admission_IC Leucocytes CRP LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Admission_NC Release_A Return_ER,1,1,1.1489119519658877,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Release_A,1,1,1.2221792790385524,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,1.1457634079516248,1
+ER_Registration CRP LacticAcid Leucocytes ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.310803915731805,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Release_B,1,1,1.2399707606814852,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Admission_NC Release_C,1,1,1.0407633694991398,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.0485519759199742,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes IV_Liquid,1,1,1.105406823419497,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP LacticAcid Leucocytes CRP CRP Release_A,1,1,0.9832908910973613,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.1654411357326588,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Release_A,1,1,1.0009939202313924,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC,1,1,1.9697096891238124,1
+ER_Triage ER_Registration Leucocytes CRP LacticAcid ER_Sepsis_Triage Admission_NC IV_Liquid IV_Antibiotics,1,1,1.7096764685444368,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Release_B,1,1,1.1234603667146104,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes Admission_NC CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid Admission_IC CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Release_C,1,1,1.1931488551074447,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.0015331376085206,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Admission_NC Admission_IC Leucocytes CRP LacticAcid LacticAcid LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.2055915576281249,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics,1,1,2.100846035740584,0
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,0.8908831864996435,1
+ER_Registration ER_Triage CRP LacticAcid Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid Release_B,1,1,1.027277501838046,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0230557504295945,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes CRP Release_A,1,1,1.010487964310033,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Admission_IC CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes Release_D Return_ER,1,1,1.2450058264405859,1
+ER_Registration CRP Leucocytes LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.144750680518823,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Release_A Return_ER,1,1,1.4339281226085134,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.2539690277829378,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Release_A,1,1,1.0142242460979414,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics CRP Leucocytes Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.1653879250880337,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9617127380563548,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Release_D,1,1,1.8077383987044082,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.5182636186837186,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_A Return_ER,1,1,1.3965876422062276,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Release_A,1,1,1.1362788101680505,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,1.0192207556609063,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A,1,1,0.9777286326330547,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes Admission_NC Leucocytes Release_A,1,1,1.3437694799427122,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Release_A,1,1,1.1603258066639115,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Admission_NC Release_A,1,1,1.0101476483848557,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP CRP Release_A Return_ER,1,1,1.1802745985163017,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Liquid IV_Antibiotics Admission_NC Admission_NC Release_A,1,1,1.1717634971946422,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_A,1,1,0.9978480603734088,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A,1,1,0.977274750806758,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,0.9656541377812831,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_IC Leucocytes LacticAcid CRP Admission_NC CRP Leucocytes Leucocytes Release_A,1,1,1.197691285494259,1
+ER_Registration CRP Leucocytes LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.0128357713335616,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A,1,1,1.021148260054931,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC Leucocytes CRP LacticAcid,1,1,1.5929138809445753,1
+ER_Registration ER_Triage LacticAcid CRP Leucocytes ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0594475824892833,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0091441733920916,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC Leucocytes Leucocytes Leucocytes Leucocytes Release_A Return_ER,1,1,1.115070917713729,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics Admission_IC LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Leucocytes Release_A Return_ER,1,1,1.1206551118983086,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP Admission_NC LacticAcid Leucocytes CRP Admission_NC Admission_NC Release_C,1,1,1.2746793371736063,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.0406360637394836,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_A,1,1,1.048249191606479,1
+CRP Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Liquid IV_Antibiotics,1,1,1.9101383102302978,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_A,1,1,1.177273467628837,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_IC LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.3172661363500557,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes Release_A Return_ER,1,1,0.995533909612872,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0764461473747526,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics IV_Liquid Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0772024088521701,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC Leucocytes CRP CRP CRP Leucocytes Leucocytes CRP Leucocytes Admission_IC Leucocytes CRP LacticAcid Leucocytes Leucocytes Leucocytes LacticAcid Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Release_A Return_ER,1,1,0.9924976634211532,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics IV_Liquid Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.264686701810662,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.2290355963181798,1
+ER_Registration Leucocytes CRP LacticAcid IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics,1,1,2.4079233617864824,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP Release_A,1,1,1.0438097700703683,1
+ER_Registration CRP Leucocytes LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Release_A,1,1,1.0128357713335616,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics IV_Liquid Admission_IC CRP Leucocytes LacticAcid Leucocytes LacticAcid LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP LacticAcid Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0600170629594048,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics IV_Liquid Admission_NC LacticAcid CRP Leucocytes Admission_IC Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.2707225410724037,1
+ER_Registration CRP Leucocytes ER_Triage ER_Sepsis_Triage,1,1,2.4900984304876723,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC IV_Liquid Leucocytes CRP CRP Leucocytes Admission_NC Admission_NC Release_A Return_ER,1,1,1.26651151794768,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC CRP Release_A,1,1,0.9801135941426419,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid Admission_NC Release_A Return_ER,1,1,1.0784509850155424,1
+ER_Registration CRP Leucocytes LacticAcid ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC Release_A,1,1,1.2856614513328388,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0587576582057139,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.1038626505796973,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Release_A,1,1,1.1537454203089463,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Antibiotics IV_Liquid Admission_NC Leucocytes CRP,1,1,1.0575597750555885,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC CRP Release_A,1,1,1.103341132323673,1
+Leucocytes CRP ER_Registration ER_Triage ER_Sepsis_Triage,1,1,2.5745619139907325,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP IV_Antibiotics Leucocytes CRP,1,1,2.1992739050465886,0
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Admission_NC CRP Leucocytes Release_A,1,1,1.2350947640763517,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics LacticAcid CRP Leucocytes,1,1,1.3992048571140787,1
+ER_Registration LacticAcid Leucocytes CRP ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes,1,1,1.0457660943211373,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.3035378250969036,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes Release_A,1,1,1.0057936301538986,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC CRP CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_C,1,1,1.5222356292296868,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A,1,1,1.238874682440475,1
+ER_Registration LacticAcid Leucocytes CRP IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.7093849451965468,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0587576582057139,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.1193183957058834,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC CRP LacticAcid Leucocytes Leucocytes Leucocytes CRP LacticAcid Release_A,1,1,1.014479639893809,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0994256280577037,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.064188911244352,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Admission_NC Release_A,1,1,0.9914832896911888,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC CRP CRP Leucocytes Leucocytes Leucocytes Leucocytes CRP Release_D,1,1,1.7705269593581803,1
+ER_Registration ER_Triage IV_Liquid Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics,1,1,1.336905837150851,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC Leucocytes CRP CRP Release_B,1,1,1.2878075251120744,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_IC Leucocytes LacticAcid CRP Admission_NC Release_A,1,1,1.3123226154031096,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Leucocytes Return_ER,1,1,1.2452672380680345,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Leucocytes CRP Admission_IC CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes LacticAcid CRP LacticAcid CRP Leucocytes CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid LacticAcid Leucocytes CRP Leucocytes LacticAcid CRP Admission_NC Release_A,1,1,1.190855118626189,1
+ER_Registration ER_Triage IV_Liquid CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC Release_A,1,1,1.3874225411115158,1
+ER_Registration ER_Triage Leucocytes LacticAcid CRP ER_Sepsis_Triage IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.1178277358612025,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Leucocytes Admission_NC CRP Leucocytes Release_A Return_ER,1,1,1.2614561819751298,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes Release_A,1,1,1.0033796922824127,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics Admission_NC LacticAcid IV_Liquid Leucocytes CRP Release_A,1,1,1.2104195145785732,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP CRP Leucocytes Leucocytes CRP Admission_NC Release_A,1,1,1.150054354421266,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC Leucocytes Admission_NC CRP Leucocytes Release_D,1,1,1.3244358969108487,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid Leucocytes CRP LacticAcid IV_Antibiotics Admission_NC Admission_IC LacticAcid Leucocytes CRP LacticAcid CRP Leucocytes Admission_NC Release_B,1,1,1.3705766271032822,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Release_A Return_ER,1,1,1.0794547866124244,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_IC Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,1.2997553098718198,1
+ER_Registration IV_Liquid ER_Triage ER_Sepsis_Triage IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes LacticAcid CRP Leucocytes CRP Release_A Return_ER,1,1,1.484563121422443,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_NC Leucocytes Release_A,1,1,0.9870996106840534,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.1230306523954172,1
+ER_Registration ER_Triage LacticAcid Leucocytes CRP ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Leucocytes CRP Admission_NC Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Release_A,1,1,1.019010135193629,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes Release_A,1,1,1.0735572750936015,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_IC Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Release_A,1,1,1.2788280126869769,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC Release_A Return_ER,1,1,1.075028934000007,1
+ER_Registration ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes Leucocytes Leucocytes CRP Release_A,1,1,0.9582225258605148,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Leucocytes Leucocytes Leucocytes CRP Release_A,1,1,1.000203740142796,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP CRP Leucocytes Release_A Return_ER,1,1,1.1704619224035766,1
+ER_Triage ER_Registration Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics,1,1,1.1328814669930418,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP CRP Release_C Return_ER,1,1,1.0677786973255383,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid LacticAcid Leucocytes CRP IV_Antibiotics Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Release_A,1,1,1.002795933833208,1
+ER_Registration IV_Liquid ER_Triage Leucocytes CRP LacticAcid ER_Sepsis_Triage IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Admission_NC Release_A,1,1,1.2141242618235328,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes CRP LacticAcid,1,1,1.195558805654069,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP CRP Release_A Return_ER,1,1,1.0665844223374357,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_IC CRP Leucocytes LacticAcid Leucocytes LacticAcid CRP LacticAcid CRP Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid CRP Leucocytes Admission_NC Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid CRP Leucocytes CRP Admission_NC CRP Leucocytes CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_A Return_ER,1,1,1.13683171362227,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Liquid IV_Antibiotics Admission_NC Release_A Return_ER,1,1,1.256124001710525,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes CRP Release_A,1,1,1.0621704835658128,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Release_A Return_ER,1,1,1.0950180987847855,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC,1,1,1.0858474497805926,1
+ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid CRP Leucocytes IV_Antibiotics IV_Liquid Admission_NC CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,0.9820940075931206,1
+ER_Registration CRP LacticAcid Leucocytes ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC Admission_NC Admission_NC Release_A Return_ER,1,1,1.1589411754129686,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Admission_NC CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.0185853176453654,1
+ER_Sepsis_Triage ER_Registration ER_Triage IV_Liquid IV_Antibiotics CRP Leucocytes LacticAcid Admission_NC CRP Leucocytes Admission_NC Leucocytes CRP Leucocytes CRP Release_A,1,1,1.31885405675872,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Leucocytes CRP CRP Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Release_D,1,1,1.190716227579467,1
+ER_Registration ER_Triage CRP Leucocytes LacticAcid ER_Sepsis_Triage IV_Liquid IV_Antibiotics,1,1,1.3368947254520518,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Leucocytes LacticAcid CRP Admission_NC Leucocytes CRP Leucocytes CRP Admission_NC Leucocytes CRP Leucocytes CRP Admission_NC Admission_NC Release_A,1,1,0.9102027268355531,1
+ER_Sepsis_Triage ER_Registration ER_Triage IV_Liquid IV_Antibiotics CRP LacticAcid Leucocytes Admission_IC LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC CRP Leucocytes CRP Leucocytes Release_A Return_ER,1,1,1.547617886515929,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Leucocytes CRP Release_A,1,1,1.0523378582322829,1
+ER_Registration Leucocytes CRP LacticAcid ER_Triage ER_Sepsis_Triage IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes CRP Admission_NC Leucocytes CRP CRP Leucocytes Release_A,1,1,1.0122371364632545,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes IV_Liquid IV_Antibiotics Admission_IC Admission_NC Leucocytes CRP Leucocytes CRP Leucocytes CRP Release_A,1,1,1.3157697875197134,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP Leucocytes LacticAcid IV_Antibiotics Admission_NC Release_A,1,1,1.090868563507579,1
+CRP Leucocytes ER_Registration ER_Triage ER_Sepsis_Triage LacticAcid Leucocytes CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes Release_A,1,1,1.1660340412597399,1
+IV_Liquid ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Antibiotics LacticAcid Admission_IC LacticAcid CRP LacticAcid Leucocytes LacticAcid Leucocytes CRP Leucocytes LacticAcid LacticAcid CRP Leucocytes Leucocytes LacticAcid CRP Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid Admission_NC Leucocytes CRP Leucocytes CRP CRP Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Leucocytes CRP Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes Leucocytes CRP Leucocytes CRP Admission_IC LacticAcid Leucocytes CRP Leucocytes Release_B,1,1,1.1148278092623916,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP Leucocytes Admission_NC Leucocytes CRP Release_A,1,1,1.0234232354240005,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP Admission_NC Leucocytes Leucocytes CRP CRP Leucocytes Leucocytes CRP Leucocytes CRP Release_A Return_ER,1,1,1.1562907522094792,1
+ER_Registration ER_Triage ER_Sepsis_Triage CRP LacticAcid Leucocytes IV_Antibiotics Admission_NC IV_Liquid,1,1,1.0026537724448188,1
+ER_Registration ER_Triage ER_Sepsis_Triage IV_Liquid CRP LacticAcid Leucocytes IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid CRP LacticAcid Leucocytes Admission_IC Leucocytes CRP LacticAcid Leucocytes Leucocytes CRP LacticAcid Admission_NC Release_A,1,1,1.090588183965949,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes CRP LacticAcid IV_Antibiotics Admission_IC CRP Leucocytes LacticAcid LacticAcid Leucocytes Leucocytes CRP LacticAcid Leucocytes CRP LacticAcid LacticAcid Leucocytes CRP Admission_NC CRP Leucocytes CRP CRP Leucocytes CRP Release_A,1,1,0.9782648218461093,1
+ER_Registration ER_Triage ER_Sepsis_Triage Leucocytes LacticAcid CRP IV_Liquid IV_Antibiotics Admission_NC CRP Leucocytes LacticAcid Leucocytes CRP Release_A,1,1,1.2115300050869622,1
