@@ -36,7 +36,7 @@ def calBleu(cand, refer, n=3):
 
 
 # Bleu的DBSCAN算法
-def dbscan(data, bleu_eps=0.6, len_eps=0.3, init_center=3, min_clust_size=10):
+def dbscan(data, bleu_eps=0.6, size_eps=0.3, init_center=3, min_clust_size=10):
     ssss = datetime.now()
     traces = data['trace'].tolist()
     freq = data['freq'].tolist()
@@ -45,14 +45,14 @@ def dbscan(data, bleu_eps=0.6, len_eps=0.3, init_center=3, min_clust_size=10):
         trace = traces[i]
         best_bleu, best_index = max((calBleu(trace, cluster_groups[i][0]), i) for i in range(len(cluster_groups)))
         is_bleu_sati = best_bleu >= bleu_eps
-        is_len_sati = freq[traces.index(cluster_groups[best_index][0])] * len_eps >= freq[traces.index(trace)]
-        if is_bleu_sati and is_len_sati:
+        is_size_sati = freq[traces.index(cluster_groups[best_index][0])] * size_eps >= freq[traces.index(trace)]
+        if is_bleu_sati and is_size_sati:
             cluster_groups[best_index].append(trace)
             new_center_index = findCenterBleu(traces, freq, cluster_groups[best_index], 3)
             cluster_groups[best_index][0], cluster_groups[best_index][new_center_index] = \
                 cluster_groups[best_index][new_center_index], cluster_groups[best_index][0]
             continue
-        if ((is_bleu_sati and not is_len_sati) or (not is_bleu_sati)) and freq[traces.index(trace)] >= min_clust_size:
+        if ((is_bleu_sati and not is_size_sati) or (not is_bleu_sati)) and freq[traces.index(trace)] >= min_clust_size:
             cluster_groups.append([trace])
             continue
     eeee = datetime.now()

@@ -7,12 +7,15 @@ from method.detector.EditSpectral import spectral_clustering
 from method.detector.RougeLof import LOF
 
 
-def f1Score(label, pred, freq, freqFlag=False):
+# F1值计算，这里注意freqFlag表示是否把轨迹发生频率加入统计
+# True表示加入统计，False表示不加入
+# 实际上加入统计更合理，效果也会很好，但是不加入统计可以作为一个实验的对比项，来体现加入统计的必要性
+def f1Score(label, pred, freq, freqFlag=True):
     TP = 0
     FN = 0
     FP = 0
     for i in range(len(label)):
-        val = 1 if freqFlag else freq[i]
+        val = freq[i] if freqFlag else 1
         if label[i] == 1 and pred[i] == 1:
             TP += val
         elif label[i] == 1 and pred[i] == 0:
@@ -86,7 +89,7 @@ def realLogLoader(inputFile, k):
 
 # kn值就是k近邻，threshold值是lof值高于阈值时被视作离群点
 # 而k值是聚类的簇的数量，别搞混
-def stater(filename, kn=5, threshold=2, k=5, bleu_eps=0.6, edit_eps=0.6):
+def stater(filename, kn=5, threshold=2, k=5, bleu_eps=0.6, edit_eps=0.3):
     print(f"开始处理数据集:{filename}")
     # 读取CSV文件
     data = realLogLoader('data/realLog/' + filename, k)
@@ -98,18 +101,18 @@ def stater(filename, kn=5, threshold=2, k=5, bleu_eps=0.6, edit_eps=0.6):
     data['lof_pred'] = data['lof_scores'].apply(lambda x: 0 if x > threshold else 1)
     # 分别计算F1分数
     f1, p, r = f1Score(data['label'], data['lof_pred'], data['freq'])
-    print(f"Lof       F1 Score: {f1} precision: {p} recall: {r} cost time: {lof_time}")
+    print(f"Lof       F1 Score: {f1} precision: {p} recall: {r} cost time: {lof_time}秒")
 
     # dbscan同理
     dbscan_result, dbscan_time = dbscan(data, bleu_eps)
     data['dbscan_pred'] = resultProcessor(data, dbscan_result)
     f1, p, r = f1Score(data['label'], data['dbscan_pred'], data['freq'])
-    print(f"DBSCAN    F1 Score: {f1} precision: {p} recall: {r} cost time: {dbscan_time}")
+    print(f"DBSCAN    F1 Score: {f1} precision: {p} recall: {r} cost time: {dbscan_time}秒")
     # 谱聚类同理
     spectral_result, spec_time = spectral_clustering(data, edit_eps, k)
     data['spectral_pred'] = resultProcessor(data, spectral_result)
     f1, p, r = f1Score(data['label'], data['spectral_pred'], data['freq'])
-    print(f"Spectral  F1 Score: {f1} precision: {p} recall: {r} cost time: {spec_time}")
+    print(f"Spectral  F1 Score: {f1} precision: {p} recall: {r} cost time: {spec_time}秒")
 
     # 结果导出到result/下
     pd.DataFrame(data).to_csv('result/' + filename, index=None)

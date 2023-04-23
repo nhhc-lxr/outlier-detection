@@ -3,6 +3,7 @@ import random
 import numpy as np
 
 
+# 余弦相似度与kmeans
 def get_cos_similarity(trace1, trace2):
     temp_trace1 = trace1.split(" ")
     temp_trace2 = trace2.split(" ")
@@ -40,7 +41,7 @@ def kmeans_cos(data, cos_eps, k):
             if trace in centers:
                 continue
             temp, index = max([(get_cos_similarity(trace, centers[i]), i) for i in range(k)], key=lambda x: x[0])
-            if temp >= cos_eps:
+            if temp >= cos_eps and freq[traces.index(trace)] > 1:
                 inertia_after_iter += temp
                 clusters[index].append(trace)
         for i in range(k):

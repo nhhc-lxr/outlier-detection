@@ -14,4 +14,4 @@ O_Create_Offer O_Created O_Refused,59,1.0,1.50476353206458,1,1.0,0.0
 O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned,48,1.0,1.730398870199542,1,1.0,0.0
 O_Create_Offer O_Created O_Sent_(online_only) O_Returned O_Refused,41,1.0,1.1065822506041436,1,1.0,0.0
 O_Create_Offer O_Created O_Sent_(online_only),17,1.0,1.6169606065596558,1,1.0,0.0
-O_Create_Offer O_Created O_Sent_(online_only) O_Returned,1,1.0,5.2081024395351685,0,1.0,0.0
+O_Create_Offer O_Created O_Sent_(online_only) O_Returned,1,0.0,5.2081024395351685,0,1.0,0.0
