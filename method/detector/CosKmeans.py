@@ -41,7 +41,7 @@ def kmeans_cos(data, cos_eps, k):
             if trace in centers:
                 continue
             temp, index = max([(get_cos_similarity(trace, centers[i]), i) for i in range(k)], key=lambda x: x[0])
-            if temp >= cos_eps and freq[traces.index(trace)] > 1:
+            if temp >= cos_eps:
                 inertia_after_iter += temp
                 clusters[index].append(trace)
         for i in range(k):

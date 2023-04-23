@@ -1,4 +1,4 @@
-trace,freq,label,lof_scores,lof_pred,dbscan_pred,spectral_pred
+trace,freq,label,lof_scores,lof_pred,kmeans_pred,spectral_pred
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,2366,1.0,0.4737693825183777,1,1.0,1.0
 Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Closed,552,1.0,0.5068479302706043,1,1.0,1.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,228,1.0,0.4024875451357613,1,1.0,1.0
@@ -27,200 +27,200 @@ Assign_seriousness Wait Resolve_ticket Closed,14,1.0,0.5624681648104988,1,1.0,0.
 Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Resolve_ticket Closed,11,1.0,0.7855226140424049,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,10,1.0,0.46507027778899795,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,9,1.0,1.1716993834499188,1,1.0,0.0
-Insert_ticket Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,8,1.0,0.791392551432927,1,0.0,0.0
+Insert_ticket Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,8,1.0,0.791392551432927,1,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,8,1.0,1.1202296900105027,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,8,1.0,0.5150518977360488,1,1.0,0.0
 Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,7,1.0,0.4837555872946524,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Closed,7,1.0,1.1071573691640437,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,7,1.0,0.8139635577085967,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Wait Resolve_ticket Closed,6,1.0,1.7958987522150032,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Wait Resolve_ticket Closed,6,1.0,1.7958987522150032,1,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,6,1.0,0.7016512948349691,1,1.0,0.0
-Assign_seriousness Wait Wait Resolve_ticket Closed,6,1.0,0.8206481585642453,1,0.0,0.0
+Assign_seriousness Wait Wait Resolve_ticket Closed,6,1.0,0.8206481585642453,1,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Closed,5,1.0,1.3113499975155622,1,1.0,0.0
-Assign_seriousness Require_upgrade Resolve_ticket Closed,5,1.0,1.766304960662059,1,0.0,0.0
-Insert_ticket Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,5,1.0,0.7863561472444749,1,0.0,0.0
+Assign_seriousness Require_upgrade Resolve_ticket Closed,5,1.0,1.766304960662059,1,1.0,0.0
+Insert_ticket Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,5,1.0,0.7863561472444749,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,5,1.0,1.2028501078555272,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Require_upgrade Resolve_ticket Closed,4,1.0,1.8473976793558147,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,4,1.0,1.0793295563036378,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Resolve_ticket Closed,4,1.0,0.936532543481017,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Require_upgrade Resolve_ticket Closed,4,1.0,1.8473976793558147,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,4,1.0,1.0793295563036378,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Resolve_ticket Closed,4,1.0,0.936532543481017,1,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Closed,4,1.0,1.951146985478446,1,1.0,0.0
-Assign_seriousness Wait Resolve_ticket Resolve_ticket Closed,4,1.0,0.9322064352885391,1,0.0,0.0
+Assign_seriousness Wait Resolve_ticket Resolve_ticket Closed,4,1.0,0.9322064352885391,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Closed,4,1.0,0.8494642353672901,1,1.0,0.0
 Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,4,1.0,0.8652346210028883,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,4,1.0,0.7475551487398991,1,1.0,0.0
 Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,4,1.0,1.0649083162349215,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Require_upgrade Resolve_ticket Resolve_ticket Closed,4,1.0,0.9728995135818091,1,1.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,4,1.0,1.004490890432824,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Require_upgrade Require_upgrade Resolve_ticket,3,0.0,1.7307065326129054,1,0.0,0.0
-Insert_ticket Take_in_charge_ticket Resolve_ticket Closed,3,1.0,1.7505821800199322,1,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,4,1.0,1.004490890432824,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Require_upgrade Require_upgrade Resolve_ticket,3,1.0,1.7307065326129054,1,0.0,0.0
+Insert_ticket Take_in_charge_ticket Resolve_ticket Closed,3,0.0,1.7505821800199322,1,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,3,1.0,0.8315382531589187,1,1.0,0.0
-Insert_ticket Wait Wait,3,0.0,1.5582753766996877,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Wait Resolve_ticket Closed,3,1.0,1.310715130353342,1,0.0,0.0
-Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,3,1.0,0.9627565052590316,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,3,1.0,1.7828929827651483,1,1.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,3,1.0,2.721815454831694,0,0.0,0.0
+Insert_ticket Wait Wait,3,1.0,1.5582753766996877,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Wait Resolve_ticket Closed,3,1.0,1.310715130353342,1,1.0,0.0
+Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,3,1.0,0.9627565052590316,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,3,0.0,1.7828929827651483,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,3,1.0,2.721815454831694,0,1.0,0.0
 Assign_seriousness Wait Take_in_charge_ticket Wait Resolve_ticket Closed,3,1.0,1.7923336184039693,1,1.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Closed,3,1.0,1.5614249720717468,1,0.0,0.0
-Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,3,1.0,1.0010246559717129,1,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Closed,3,1.0,1.5614249720717468,1,1.0,0.0
+Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,3,0.0,1.0010246559717129,1,1.0,0.0
 Insert_ticket Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,3,1.0,1.254327517371228,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed Closed,3,1.0,1.6594091290260413,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Take_in_charge_ticket Resolve_ticket Closed,3,1.0,2.2530566220489425,0,0.0,0.0
-Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.201134183361515,1,1.0,0.0
-Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,2,1.0,1.8305568480358778,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket,2,1.0,13.148855071969079,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,2,1.0,2.0165817236798564,0,1.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.4715525562864598,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Resolve_ticket Closed,2,1.0,2.3118071408524887,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,0.7047438028571661,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.0295717826197834,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Resolve_ticket Closed,2,1.0,0.665271679430695,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,2,1.0,5.388728350568483,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.9906981313781842,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,1.0,2.2427112868005605,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed Closed,3,0.0,1.6594091290260413,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Take_in_charge_ticket Resolve_ticket Closed,3,1.0,2.2530566220489425,0,1.0,0.0
+Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.201134183361515,1,1.0,0.0
+Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,2,0.0,1.8305568480358778,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket,2,0.0,13.148855071969079,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,2,0.0,2.0165817236798564,0,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.4715525562864598,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Resolve_ticket Closed,2,0.0,2.3118071408524887,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,0.7047438028571661,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.0295717826197834,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Resolve_ticket Closed,2,0.0,0.665271679430695,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,2,0.0,5.388728350568483,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.9906981313781842,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,0.0,2.2427112868005605,0,1.0,0.0
 Assign_seriousness Create_SW_anomaly Create_SW_anomaly Resolve_SW_anomaly Resolve_SW_anomaly Require_upgrade Resolve_ticket Closed,2,0.0,1.062628380086267,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.4715525562864598,1,1.0,0.0
-Assign_seriousness Require_upgrade Resolve_ticket Resolve_ticket Closed,2,1.0,1.9396652258120166,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,2,1.0,0.8523719014285829,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,2,1.0,0.7555035865261632,1,1.0,0.0
-Insert_ticket Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.242795470067457,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Wait Wait Resolve_ticket Closed,2,1.0,1.3534192810166477,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Take_in_charge_ticket Wait Resolve_ticket Closed,2,1.0,6.110239906454735,0,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Closed,2,1.0,1.6345776561239886,1,0.0,0.0
-Assign_seriousness Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.6249256188431676,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Resolve_ticket,2,1.0,2.713923489874262,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,0.9785578521428745,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,1.0,1.1261859507142913,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.4715525562864598,1,1.0,0.0
+Assign_seriousness Require_upgrade Resolve_ticket Resolve_ticket Closed,2,0.0,1.9396652258120166,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,2,0.0,0.8523719014285829,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,2,0.0,0.7555035865261632,1,1.0,0.0
+Insert_ticket Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.242795470067457,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Wait Wait Resolve_ticket Closed,2,0.0,1.3534192810166477,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Take_in_charge_ticket Wait Resolve_ticket Closed,2,0.0,6.110239906454735,0,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Closed,2,0.0,1.6345776561239886,1,1.0,0.0
+Assign_seriousness Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.6249256188431676,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Resolve_ticket,2,0.0,2.713923489874262,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,0.9785578521428745,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,2,0.0,1.1261859507142913,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,8670025.189754117,0,1.0,0.0
-Assign_seriousness Create_SW_anomaly Require_upgrade Resolve_ticket Closed,1,0.0,1.8820615610303542,1,0.0,0.0
-Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.5488106793739385,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.033666704154534,1,0.0,0.0
-Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Closed,1,0.0,1.8596897463661326,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.5959356018107296,0,0.0,0.0
+Assign_seriousness Create_SW_anomaly Require_upgrade Resolve_ticket Closed,1,0.0,1.8820615610303542,1,1.0,0.0
+Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.5488106793739385,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.033666704154534,1,1.0,0.0
+Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Closed,1,0.0,1.8596897463661326,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.5959356018107296,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Wait Resolve_ticket Closed,1,0.0,4.553347764643728,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Wait Resolve_ticket Resolve_ticket Closed,1,0.0,2.90666190339856,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Wait Resolve_ticket Resolve_ticket Closed,1,0.0,2.90666190339856,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Require_upgrade Resolve_ticket,1,0.0,1.272091539318083,1,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.6748471051720513,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Require_upgrade Resolve_ticket Closed,1,0.0,1.2421810694440456,1,1.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Wait,1,0.0,2.2046674213257265,0,0.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Wait,1,0.0,2.2046674213257265,0,1.0,0.0
 Assign_seriousness Wait Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,1,0.0,8.640662558802129,0,1.0,0.0
 Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2444445.80905357,0,1.0,0.0
-Assign_seriousness Create_SW_anomaly Take_in_charge_ticket Create_SW_anomaly Require_upgrade VERIFIED DUPLICATE Resolve_ticket Closed,1,0.0,5.63913514165335,0,0.0,0.0
+Assign_seriousness Create_SW_anomaly Take_in_charge_ticket Create_SW_anomaly Require_upgrade VERIFIED DUPLICATE Resolve_ticket Closed,1,0.0,5.63913514165335,0,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.2299463873141905,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_SW_anomaly Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,4.190237989959905,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_SW_anomaly Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,4.190237989959905,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.0527558631776386,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.1962064116722044,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,0.9655413149213252,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.5509775004326938,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,0.9655413149213252,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.5509775004326938,1,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0464042743380015,1,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,2.020161483416275,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Schedule_intervention Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,9.929393255025916,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0804523536600785,1,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,3.551044101722263,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.7849625007211563,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.1551818884901,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Wait Resolve_ticket Closed,1,0.0,1.5689177246005999,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.7849625007211563,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.1551818884901,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Wait Resolve_ticket Closed,1,0.0,1.5689177246005999,1,1.0,0.0
 Assign_seriousness Resolve_ticket Take_in_charge_ticket Require_upgrade Resolve_ticket Closed,1,0.0,4.687641098117679,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,5170830.204357577,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,5170830.204357577,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,5170830.204357577,0,1.0,0.0
 Insert_ticket Wait Wait Wait Wait,1,0.0,3.1165507533993755,0,0.0,0.0
-Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,1.925513010518063,1,0.0,0.0
-Assign_seriousness Assign_seriousness Wait Wait Resolve_ticket Closed,1,0.0,2.216269064877304,0,0.0,0.0
+Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,1.925513010518063,1,1.0,0.0
+Assign_seriousness Assign_seriousness Wait Wait Resolve_ticket Closed,1,0.0,2.216269064877304,0,1.0,0.0
 Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.0090125751758254,0,1.0,0.0
 Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,4484849.806082999,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket RESOLVED INVALID Closed VERIFIED,1,0.0,1.925314745893031,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.1124794889950238,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket RESOLVED INVALID Closed VERIFIED,1,0.0,1.925314745893031,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.1124794889950238,1,1.0,0.0
 Insert_ticket Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,3.9100686535435494,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.763272613019225,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.763272613019225,1,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0464042743380015,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,1.0,0.0
-Assign_seriousness Wait Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.243610842494327,0,0.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,0.9655413149213252,1,0.0,0.0
+Assign_seriousness Wait Wait Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.243610842494327,0,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,0.9655413149213252,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.2418906731257895,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.5626065485913094,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.5626065485913094,1,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0857142717244923,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Wait Wait Wait,1,0.0,1.0275350155767817,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.1526617006345885,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Wait Wait Wait,1,0.0,1.0275350155767817,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.1526617006345885,1,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.6748471051720513,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.339734445322637,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.2418906731257895,0,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,2.6950723113366784,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed Closed,1,0.0,3.66104123436438,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.042857135862246,1,1.0,0.0
-Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2444445.80905357,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.2418906731257895,0,0.0,0.0
+Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2444445.80905357,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.2418906731257895,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1494507.2575834764,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,3969231.7818542896,0,0.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Wait Resolve_ticket Closed,1,0.0,2.084896691683371,0,0.0,0.0
-Assign_seriousness Wait Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.009565520528441,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade,1,0.0,1.32560414729391,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,4.9717646126016515,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,3969231.7818542896,0,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Wait Resolve_ticket Closed,1,0.0,2.084896691683371,0,1.0,0.0
+Assign_seriousness Wait Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.009565520528441,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade,1,0.0,1.32560414729391,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,4.9717646126016515,0,1.0,0.0
 Assign_seriousness Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.325667664852332,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.1534519706045696,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.1534519706045696,0,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.3323556195543973,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Create_SW_anomaly Require_upgrade,1,0.0,3.0144688962145874,0,0.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.816193027691091,1,1.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Require_upgrade Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.8421530204511027,0,0.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Resolve_ticket Closed,1,0.0,2.8450414895929006,0,0.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Require_upgrade Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.8421530204511027,0,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Resolve_ticket Closed,1,0.0,2.8450414895929006,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,1.0,0.0
 Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.0090125751758254,0,1.0,0.0
 Assign_seriousness Resolve_ticket Closed Take_in_charge_ticket,1,0.0,6.2561609616665645,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Wait Resolve_ticket Closed,1,0.0,2.7557662197730455,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Wait Resolve_ticket Resolve_ticket Closed,1,0.0,2.2039423318321965,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Wait Resolve_ticket Closed,1,0.0,2.7557662197730455,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Wait Resolve_ticket Resolve_ticket Closed,1,0.0,2.2039423318321965,0,1.0,0.0
 Assign_seriousness Resolve_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,3.4687204261547597,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.7520915451438746,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.7520915451438746,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Require_upgrade Resolve_ticket Closed,1,0.0,1.9946170949978792,1,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.2359853948130493,0,1.0,0.0
 Assign_seriousness Resolve_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.496124821442536,1,1.0,0.0
-Insert_ticket Assign_seriousness Take_in_charge_ticket Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.213721415956601,0,0.0,0.0
+Insert_ticket Assign_seriousness Take_in_charge_ticket Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.213721415956601,0,1.0,0.0
 Insert_ticket Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.0020493119434257,0,1.0,0.0
 Assign_seriousness Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.9037526389623305,1,1.0,0.0
-Assign_seriousness Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,3.1591992653447423,0,0.0,0.0
+Assign_seriousness Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,3.1591992653447423,0,1.0,0.0
 Insert_ticket Assign_seriousness Assign_seriousness Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.8536824319810075,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.9329119892741027,1,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Resolve_ticket Resolve_ticket Closed,1,0.0,1.086532806576339,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Require_upgrade Resolve_ticket Resolve_ticket Closed,1,0.0,1.086532806576339,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.9329119892741027,1,1.0,0.0
-Assign_seriousness Wait Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.262652251791509,0,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.3724338140775352,1,0.0,0.0
+Assign_seriousness Wait Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.262652251791509,0,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.3724338140775352,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Require_upgrade Resolve_ticket Closed,1,0.0,2.2812249355275176,0,1.0,0.0
-Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.730093491155156,0,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,2.1698294948722547,0,0.0,0.0
+Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.730093491155156,0,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,2.1698294948722547,0,1.0,0.0
 Insert_ticket Assign_seriousness Assign_seriousness Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.508655034742456,0,1.0,0.0
 Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.0090125751758254,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.848350246494394,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Create_SW_anomaly Resolve_ticket Closed,1,0.0,3.4885491888311546,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,2.848350246494394,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Create_SW_anomaly Resolve_ticket Closed,1,0.0,3.4885491888311546,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Assign_seriousness Take_in_charge_ticket Resolve_ticket Closed,1,0.0,5.576013243800758,0,1.0,0.0
 Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2.0090125751758254,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket,1,0.0,9.118610518175702,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.09038942219038,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait,1,0.0,1.0610640188885943,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,12.911058446264082,0,0.0,0.0
-Assign_seriousness Resolve_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.496124821442536,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,2.09038942219038,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait,1,0.0,1.0610640188885943,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,12.911058446264082,0,1.0,0.0
+Assign_seriousness Resolve_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,1.496124821442536,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Resolve_SW_anomaly Resolve_SW_anomaly Require_upgrade,1,0.0,1.4557173720048777,1,0.0,0.0
 Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Wait Resolve_ticket Closed,1,0.0,1.5732631386278186,1,1.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,1,0.0,12.608478659992112,0,0.0,0.0
-Assign_seriousness Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.4753729452234554,1,0.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.7450429609268219,1,0.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,1,0.0,12.608478659992112,0,1.0,0.0
+Assign_seriousness Assign_seriousness Assign_seriousness Assign_seriousness Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.4753729452234554,1,1.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.7450429609268219,1,1.0,0.0
 Assign_seriousness Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,2444445.80905357,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Require_upgrade Resolve_ticket Closed,1,0.0,1.9723948737013222,1,0.0,0.0
 Insert_ticket Assign_seriousness Resolve_ticket Closed,1,0.0,5.243168593422638,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Wait Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1189589716366828,1,1.0,0.0
-Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0857142717244923,1,0.0,0.0
+Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.0857142717244923,1,1.0,0.0
 Create_SW_anomaly Resolve_SW_anomaly Resolve_ticket Closed,1,0.0,1.3166079893322054,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Create_SW_anomaly Resolve_ticket RESOLVED INVALID VERIFIED Closed,1,0.0,10.32881396622543,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Resolve_ticket Closed,1,0.0,1.669867633138604,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.1974448538043099,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Wait Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.2339850002884625,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Create_SW_anomaly Require_upgrade Resolve_ticket Closed,1,0.0,1.494073317708116,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,1,0.0,8.703116934718862,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Create_SW_anomaly Resolve_ticket RESOLVED INVALID VERIFIED Closed,1,0.0,10.32881396622543,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Require_upgrade Require_upgrade Resolve_ticket Resolve_ticket Closed,1,0.0,1.669867633138604,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.1974448538043099,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Wait Take_in_charge_ticket Take_in_charge_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.2339850002884625,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Create_SW_anomaly Require_upgrade Resolve_ticket Closed,1,0.0,1.494073317708116,1,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Schedule_intervention Resolve_ticket Closed,1,0.0,8.703116934718862,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait,1,0.0,1.1410625832638939,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed,1,0.0,3.1962064116722044,0,1.0,0.0
 Wait Resolve_ticket Closed,1,0.0,3.4720341887643595,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Resolve_ticket Closed Closed,1,0.0,2.6527476567653836,0,1.0,0.0
 Assign_seriousness Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Resolve_ticket Closed,1,0.0,3.551044101722263,0,1.0,0.0
-Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.768896786009238,0,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Take_in_charge_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.768896786009238,0,1.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Take_in_charge_ticket Wait Take_in_charge_ticket Resolve_ticket Closed,1,0.0,1.1169925001442311,1,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Create_SW_anomaly Create_SW_anomaly Resolve_SW_anomaly Resolve_SW_anomaly Require_upgrade Create_SW_anomaly Resolve_ticket,1,0.0,1.7619448070467802,1,0.0,0.0
-Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.000276845349538,1,0.0,0.0
-Assign_seriousness Resolve_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.045902974000745,0,0.0,0.0
+Assign_seriousness Take_in_charge_ticket Wait Wait Take_in_charge_ticket Wait Take_in_charge_ticket Create_SW_anomaly Resolve_ticket Closed,1,0.0,1.000276845349538,1,1.0,0.0
+Assign_seriousness Resolve_ticket Wait Wait Resolve_ticket Closed,1,0.0,2.045902974000745,0,1.0,0.0
 Assign_seriousness Take_in_charge_ticket Resolve_ticket Resolve_ticket Closed Closed,1,0.0,3.144454992902786,0,1.0,0.0

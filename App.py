@@ -16,5 +16,5 @@ if __name__ == '__main__':
     stater(BPIC2017)
     stater(BPIC2020)
     stater(HelpDesk)
-    # stater(HospitalBilling)
-    # stater(SepsisCases)
+    stater(HospitalBilling)
+    stater(SepsisCases)

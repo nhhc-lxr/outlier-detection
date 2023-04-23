@@ -1,4 +1,4 @@
-trace,freq,label,lof_scores,lof_pred,dbscan_pred,spectral_pred
+trace,freq,label,lof_scores,lof_pred,kmeans_pred,spectral_pred
 O_Create_Offer O_Created O_Sent_(mail_and_online) O_Cancelled,16365,1.0,0.6683536721073983,1,1.0,1.0
 O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned O_Accepted,16299,1.0,0.6725853571439496,1,1.0,1.0
 O_Create_Offer O_Created O_Sent_(mail_and_online) O_Returned O_Refused,3532,1.0,0.9166112867738833,1,1.0,1.0

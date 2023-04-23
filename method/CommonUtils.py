@@ -77,9 +77,12 @@ def realLogLoader(inputFile, k):
     data = [[trace, traces_dict[trace]] for trace in all_traces]
     df = pd.DataFrame(data, columns=['trace', 'freq'])
     # 进行kmeans聚类，作为评估F1值的标准，之前用的dbscan作为标准，现在把dbscan作为对比方法了
-    kmeans_result, k_time = kmeans_cos(df, 0.6, k)
+    # kmeans_result, k_time = kmeans_cos(df, 0.6, k)
+
+    dbscan_result, dbscan_time = dbscan(df, 0.6)
+
     # label标签为1表示正常轨迹，为0表示离群点
-    df['label'] = resultProcessor(df, kmeans_result)
+    df['label'] = resultProcessor(df, dbscan_result)
     print('共有轨迹', sum(traces_dict.values()), '条，去重轨迹', len(all_traces), '条，活动', len(activity_dict.keys()),
           '个，事件',
           sum(activity_dict.values()),
@@ -105,11 +108,11 @@ def stater(filename, kn=5, threshold=2, k=5, bleu_eps=0.6, edit_eps=0.3):
     f1, p, r = f1Score(data['label'], data['lof_pred'], data['freq'])
     print(f"Lof       F1 Score: {f1} precision: {p} recall: {r} cost time: {lof_time}秒")
 
-    # dbscan同理
-    dbscan_result, dbscan_time = dbscan(data, bleu_eps)
-    data['dbscan_pred'] = resultProcessor(data, dbscan_result)
-    f1, p, r = f1Score(data['label'], data['dbscan_pred'], data['freq'])
-    print(f"DBSCAN    F1 Score: {f1} precision: {p} recall: {r} cost time: {dbscan_time}秒")
+    # kmeans同理
+    kmeans_result, k_time = kmeans_cos(data, 0.6, k)
+    data['kmeans_pred'] = resultProcessor(data, kmeans_result)
+    f1, p, r = f1Score(data['label'], data['kmeans_pred'], data['freq'])
+    print(f"Kmeans    F1 Score: {f1} precision: {p} recall: {r} cost time: {k_time}秒")
     # 谱聚类同理
     spectral_result, spec_time = spectral_clustering(data, edit_eps, k)
     data['spectral_pred'] = resultProcessor(data, spectral_result)
