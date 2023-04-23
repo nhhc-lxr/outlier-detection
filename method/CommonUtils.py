@@ -87,8 +87,10 @@ def realLogLoader(inputFile, k):
     return df
 
 
-# kn值就是k近邻，threshold值是lof值高于阈值时被视作离群点
-# 而k值是聚类的簇的数量，别搞混
+# kn值就是k近邻，threshold值是lof值高于阈值时被视作离群点，
+# k值是聚类的簇的数量，别跟kn搞混
+# bleu_eps是bleu+dbscan的离群点，越高离群点越多，edit_eps同理
+# 这些参数需要再调整，需要你自己多跑几次实验，找到合理的参数设置
 def stater(filename, kn=5, threshold=2, k=5, bleu_eps=0.6, edit_eps=0.3):
     print(f"开始处理数据集:{filename}")
     # 读取CSV文件
